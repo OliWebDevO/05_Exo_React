@@ -2,6 +2,7 @@ import Clock from '../components/Clock/Clock'
 import GuestApp from '../components/GuestApp/GuestApp'
 import Today from '../components/Today/Today'
 import Header from '../containers/Header/Header'
+import SwitchClockOrToday from '../containers/SwitchClockOrToday/SwitchClockOrToday'
 import './App.css'
 
 function App() {
@@ -9,8 +10,7 @@ function App() {
     <div className='app'>
     <Header/>
     <GuestApp/>
-    <Clock/>
-    <Today/>
+    <SwitchClockOrToday/>
     </div>
   )
 }
